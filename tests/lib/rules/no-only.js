@@ -17,7 +17,7 @@ ruleTester.run("no-only", rule, {
         message: "Unexpected only",
         type: "CallExpression",
         line: 1,
-        column: 1 
+        column: 1
       }]
     }, {
       code: "it.only()",

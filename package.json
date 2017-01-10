@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-funbox-rules",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "disallow the use of describe.only() and it.only()",
   "keywords": [
     "eslint",
