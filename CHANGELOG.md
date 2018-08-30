@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.1 (31.08.2018)
+
+* Add @funboxteam to README.
+
 ## 2.0.0 (06.07.2018)
 
 * Add .editorconfig, .gitignore & package-lock.json.
