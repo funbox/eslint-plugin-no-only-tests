@@ -10,10 +10,10 @@ You'll first need to install [ESLint](http://eslint.org):
 $ npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-funbox-rules`:
+Next, install `@funboxteam/eslint-plugin-funbox-rules`:
 
 ```
-$ npm install eslint-plugin-funbox-rules --save-dev
+$ npm install @funboxteam/eslint-plugin-funbox-rules --save-dev
 ```
 
 **Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-funbox-rules` globally.
@@ -25,7 +25,7 @@ Add `funbox` to the plugins section of your `.eslintrc` configuration file. You 
 ```json
 {
     "plugins": [
-        "funbox-rules"
+        "@funboxteam/funbox-rules"
     ]
 }
 ```
@@ -36,7 +36,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "funbox-rules/rule-name": 2
+        "@funboxteam/funbox-rules/rule-name": 2
     }
 }
 ```
