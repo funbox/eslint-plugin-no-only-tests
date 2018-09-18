@@ -1,4 +1,4 @@
-# eslint-plugin-funbox-rules
+# eslint-plugin-no-only-tests
 
 disallow the use of describe.only() and it.only()
 
@@ -10,13 +10,13 @@ You'll first need to install [ESLint](http://eslint.org):
 $ npm i eslint --save-dev
 ```
 
-Next, install `@funboxteam/eslint-plugin-funbox-rules`:
+Next, install `@funboxteam/eslint-plugin-no-only-tests`:
 
 ```
-$ npm install @funboxteam/eslint-plugin-funbox-rules --save-dev
+$ npm install @funboxteam/eslint-plugin-no-only-tests --save-dev
 ```
 
-**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-funbox-rules` globally.
+**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-no-only-tests` globally.
 
 ## Usage
 
