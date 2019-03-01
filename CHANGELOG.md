@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.1.1 (01.03.2018)
+
+* Fix false-negative check for `describe` (`describe.skip`, etc).
+
 ## 3.1.0 (03.10.2018)
 
 * Update examples in README.
