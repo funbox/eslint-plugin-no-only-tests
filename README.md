@@ -1,4 +1,4 @@
-# eslint-plugin-no-only-tests
+# @funboxteam/eslint-plugin-no-only-tests
 
 Disallow the use of describe.only() and it.only().
 

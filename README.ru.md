@@ -1,4 +1,4 @@
-# eslint-plugin-no-only-tests
+# @funboxteam/eslint-plugin-no-only-tests
 
 **eslint-plugin-no-only-tests** — это плагин ESLint, который проверяет наличие тестов describe.only() и it.only(), и в случае их обнаружения показывает предупреждение.
 
@@ -18,7 +18,7 @@ $ npm install @funboxteam/eslint-plugin-no-only-tests --save-dev
 
 ## Использование
 
-Необходимо добавить `@funbox/eslint-plugin-no-only-tests` в раздел `plugins` конфигурационного файла `.eslintrc`.
+Необходимо добавить `@funboxteam/eslint-plugin-no-only-tests` в раздел `plugins` конфигурационного файла `.eslintrc`.
 Можно опустить префикс `eslint-plugin-`:
 
 ```json
