@@ -7,6 +7,7 @@ var ruleTester = new RuleTester();
 ruleTester.run("no-only", rule, {
   valid: [
     'describe(function() {})',
+    'describe.skip(function() {})',
     'it(function() {})',
     'describe(function() { it(function() {}); })',
     'obj.only()'
