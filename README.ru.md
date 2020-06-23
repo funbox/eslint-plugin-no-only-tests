@@ -2,7 +2,16 @@
 
 [![npm](https://img.shields.io/npm/v/@funboxteam/eslint-plugin-no-only-tests.svg)](https://www.npmjs.com/package/@funboxteam/eslint-plugin-no-only-tests)
 
-**eslint-plugin-no-only-tests** — это плагин ESLint, который проверяет наличие тестов describe.only() и it.only(), и в случае их обнаружения показывает предупреждение.
+**eslint-plugin-no-only-tests** — это плагин ESLint, который проверяет наличие в файлах `describe.only()` и `it.only()`, и в случае их обнаружения показывает предупреждение.
+
+## Назначение
+
+Когда разработчик отлаживает тесты локально, он может для упрощения процесса оставить включёнными только те из них, 
+которые сломаны. Удобнее всего это делать с помощью метода `only` в `it` и `describe`.
+
+Однако, на CI нужно запускать все тесты. Потому мы добавляем в линтер правило, которое проверяет, 
+не используется ли метод `only` в файлах с тестами. А сам линтер запускаем с помощью прекоммит-хука,
+тем самым блокируя возможность коммита в случае наличия `only` в кодовой базе.
 
 ## Установка
 
@@ -41,3 +50,5 @@ $ npm install @funboxteam/eslint-plugin-no-only-tests --save-dev
     }
 }
 ```
+
+[![Sponsored by FunBox](https://funbox.ru/badges/sponsored_by_funbox_centered.svg)](https://funbox.ru)

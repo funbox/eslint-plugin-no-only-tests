@@ -1,13 +1,20 @@
 {
   "name": "@funboxteam/eslint-plugin-no-only-tests",
   "version": "3.1.2",
-  "description": "disallow the use of describe.only() and it.only()",
+  "description": "Disallow the use of describe.only() and it.only()",
   "keywords": [
     "eslint",
     "eslintplugin",
     "eslint-plugin"
   ],
-  "author": "Artem Frolkov",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/funbox/eslint-plugin-no-only-tests"
+  },
+  "files": [
+    "lib/"
+  ],
+  "author": "Artem Frolkov <art.frolkov@gmail.com> (https://github.com/artfrolkov)",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {

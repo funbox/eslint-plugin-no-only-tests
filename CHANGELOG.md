@@ -2,7 +2,7 @@
 
 ## 3.1.2 (01.03.2019)
 
-* Fix typos in `README` & `CHANGELOG`.
+* Fix typos in README & CHANGELOG.
 
 ## 3.1.1 (01.03.2019)
 
@@ -15,7 +15,7 @@
 
 ## 3.0.0 (28.09.2018)
 
-* Rename the package to `@funboxteam/eslint-plugin-no-only-tests`.
+* Rename the package to @funboxteam/eslint-plugin-no-only-tests.
 
 ## 2.0.1 (31.08.2018)
 
