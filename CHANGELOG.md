@@ -1,5 +1,12 @@
 # Changelog
 
+## 4.0.0 (23.06.2020)
+
+* Update ESLint to 5.16.0.
+* Refactoring.
+* Change license to MIT.
+* Publish the package to Github & public npm.
+
 ## 3.1.2 (01.03.2019)
 
 * Fix typos in README & CHANGELOG.
