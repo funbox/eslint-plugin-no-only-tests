@@ -1,5 +1,7 @@
 # @funboxteam/eslint-plugin-no-only-tests
 
+[![npm](https://img.shields.io/npm/v/@funboxteam/eslint-plugin-no-only-tests.svg)](https://www.npmjs.com/package/@funboxteam/eslint-plugin-no-only-tests)
+
 **eslint-plugin-no-only-tests** — это плагин ESLint, который проверяет наличие тестов describe.only() и it.only(), и в случае их обнаружения показывает предупреждение.
 
 ## Установка

@@ -1,5 +1,7 @@
 # @funboxteam/eslint-plugin-no-only-tests
 
+[![npm](https://img.shields.io/npm/v/@funboxteam/eslint-plugin-no-only-tests.svg)](https://www.npmjs.com/package/@funboxteam/eslint-plugin-no-only-tests)
+
 Disallow the use of describe.only() and it.only().
 
 [По-русски](./README.ru.md)
