@@ -10,37 +10,32 @@ You'll first need to install [ESLint](http://eslint.org):
 $ npm i eslint --save-dev
 ```
 
-Next, install `@funboxteam/eslint-plugin-no-only-tests`:
+Next, install the plugin:
 
 ```
 $ npm install @funboxteam/eslint-plugin-no-only-tests --save-dev
 ```
 
-**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-no-only-tests` globally.
-
 ## Usage
 
-Add `funbox` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `@funboxteam/eslint-plugin-no-only-tests` to the `plugins` section of your `.eslintrc` configuration file. 
+You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
     "plugins": [
-        "@funboxteam/funbox-rules"
+        "@funboxteam/no-only-tests"
     ]
 }
 ```
 
 
-Then configure the rules you want to use under the rules section.
+Then configure the rule under the `rules` section.
 
 ```json
 {
     "rules": {
-        "@funboxteam/funbox-rules/rule-name": 2
+        "@funboxteam/no-only-tests/no-only": 2
     }
 }
 ```
-
-## Supported Rules
-
-* Fill in provided rules here
