@@ -1,6 +1,8 @@
 # eslint-plugin-no-only-tests
 
-disallow the use of describe.only() and it.only()
+Disallow the use of describe.only() and it.only().
+
+[По-русски](./README.ru.md)
 
 ## Installation
 
