@@ -9,7 +9,8 @@
 Когда разработчик отлаживает тесты локально, он может для упрощения процесса оставить включёнными только те из них, 
 которые сломаны. Удобнее всего это делать с помощью метода `only` в `it` и `describe`.
 
-Однако, на CI нужно запускать все тесты. Потому мы добавляем в линтер правило, которое проверяет, 
+Однако, на CI нужно запускать все тесты. 
+Потому мы включаем в нашем [ESLint-конфиге](https://github.com/funbox/eslint-config) этот плагин, и он проверяет, 
 не используется ли метод `only` в файлах с тестами. А сам линтер запускаем с помощью прекоммит-хука,
 тем самым блокируя возможность коммита в случае наличия `only` в кодовой базе.
 
@@ -34,9 +35,9 @@ $ npm install @funboxteam/eslint-plugin-no-only-tests --save-dev
 
 ```json
 {
-    "plugins": [
-        "@funboxteam/no-only-tests"
-    ]
+  "plugins": [
+    "@funboxteam/no-only-tests"
+  ]
 }
 ```
 
@@ -45,9 +46,9 @@ $ npm install @funboxteam/eslint-plugin-no-only-tests --save-dev
 
 ```json
 {
-    "rules": {
-        "@funboxteam/no-only-tests/no-only": 2
-    }
+  "rules": {
+    "@funboxteam/no-only-tests/no-only": 2
+  }
 }
 ```
 
