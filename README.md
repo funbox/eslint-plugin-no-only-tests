@@ -36,9 +36,9 @@ You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
-    "plugins": [
-        "@funboxteam/no-only-tests"
-    ]
+  "plugins": [
+    "@funboxteam/no-only-tests"
+  ]
 }
 ```
 
@@ -47,9 +47,9 @@ Then configure the rule under the `rules` section.
 
 ```json
 {
-    "rules": {
-        "@funboxteam/no-only-tests/no-only": 2
-    }
+  "rules": {
+    "@funboxteam/no-only-tests/no-only": 2
+  }
 }
 ```
 

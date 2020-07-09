@@ -35,9 +35,9 @@ $ npm install @funboxteam/eslint-plugin-no-only-tests --save-dev
 
 ```json
 {
-    "plugins": [
-        "@funboxteam/no-only-tests"
-    ]
+  "plugins": [
+    "@funboxteam/no-only-tests"
+  ]
 }
 ```
 
@@ -46,9 +46,9 @@ $ npm install @funboxteam/eslint-plugin-no-only-tests --save-dev
 
 ```json
 {
-    "rules": {
-        "@funboxteam/no-only-tests/no-only": 2
-    }
+  "rules": {
+    "@funboxteam/no-only-tests/no-only": 2
+  }
 }
 ```
 
