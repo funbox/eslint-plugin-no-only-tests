@@ -10,9 +10,10 @@ Disallow the use of `describe.only()` and `it.only()`.
 
 When developers fix tests they may make the process easier by filtering tests using method `only` on `it` & `describe`.
 
-However, such filters should not be in the repo when the project is running on CI. So, we add this rule to our ESLint config 
-to check the existence of `only` in the tests files. And we run linter using precommit-hook, 
-which make it possible to prevent committing when `only` does exist in the code.  
+However, such filters should not be in the repo when the project is running on CI. 
+So, we add this rule to our [ESLint config](https://github.com/funbox/eslint-config) to check the existence of `only` 
+in the tests files. And we run linter using precommit-hook, which make it possible to prevent committing 
+when `only` does exist in the code.  
 
 ## Installation
 
