@@ -1,5 +1,16 @@
 # Changelog
 
+## 4.0.1 (10.06.2021)
+
+Fixed several security vulnerabilities:
+
+- [Prototype Pollution](https://github.com/advisories/GHSA-c4w7-xm78-47vh) in [y18n](https://github.com/yargs/y18n). Updated from 3.2.1 to 3.2.2.
+
+- [Prototype Pollution](https://github.com/advisories/GHSA-p6mc-m468-83gw) and [Command Injection](https://github.com/advisories/GHSA-35jh-r3h4-6jhm) in [lodash](https://github.com/lodash/lodash). Updated from 4.17.15 to 4.17.21.
+
+- and others.
+
+
 ## 4.0.0 (23.06.2020)
 
 * Update ESLint to 5.16.0.
