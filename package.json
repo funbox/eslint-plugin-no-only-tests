@@ -18,6 +18,7 @@
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
+    "prepublishOnly": "lawyer",
     "test": "mocha tests --recursive"
   },
   "devDependencies": {
