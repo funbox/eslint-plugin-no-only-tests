@@ -1,5 +1,5 @@
-const rule = require('../../../lib/rules/no-only');
 const RuleTester = require('eslint').RuleTester;
+const rule = require('../../../lib/rules/no-only');
 
 const ruleTester = new RuleTester();
 
@@ -9,7 +9,7 @@ ruleTester.run('no-only', rule, {
     'describe.skip(function() {})',
     'it(function() {})',
     'describe(function() { it(function() {}); })',
-    'obj.only()'
+    'obj.only()',
   ],
   invalid: [
     {
@@ -18,8 +18,8 @@ ruleTester.run('no-only', rule, {
         message: 'Unexpected describe.only',
         type: 'CallExpression',
         line: 1,
-        column: 1
-      }]
+        column: 1,
+      }],
     },
     {
       code: 'it.only()',
@@ -27,8 +27,8 @@ ruleTester.run('no-only', rule, {
         message: 'Unexpected it.only',
         type: 'CallExpression',
         line: 1,
-        column: 1
-      }]
+        column: 1,
+      }],
     },
     {
       code: 'describe(function() {it.only()})',
@@ -36,8 +36,8 @@ ruleTester.run('no-only', rule, {
         message: 'Unexpected it.only',
         type: 'CallExpression',
         line: 1,
-        column: 22
-      }]
+        column: 22,
+      }],
     },
     {
       code: 'describe.only(function() {it.only()})',
@@ -46,15 +46,15 @@ ruleTester.run('no-only', rule, {
           message: 'Unexpected describe.only',
           type: 'CallExpression',
           line: 1,
-          column: 1
+          column: 1,
         },
         {
           message: 'Unexpected it.only',
           type: 'CallExpression',
           line: 1,
-          column: 27
-        }
-      ]
-    }
-  ]
+          column: 27,
+        },
+      ],
+    },
+  ],
 });
