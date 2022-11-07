@@ -19,7 +19,7 @@
   "main": "lib/index.js",
   "scripts": {
     "lint": "eslint --cache --ext .js ./",
-    "prepublishOnly": "lawyer",
+    "prepublishOnly": "if [ -z \"$CI\" ]; then lawyer; fi",
     "test": "mocha tests --recursive"
   },
   "devDependencies": {
