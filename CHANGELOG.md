@@ -1,5 +1,14 @@
 # Changelog
 
+## 5.0.0 (19.05.2023)
+
+Dropped Node.js 12 support.
+
+Added Node.js 16 & 18 support.
+
+Read more in the [migration guide](./MIGRATION.md).
+
+
 ## 4.0.1 (10.06.2021)
 
 Fixed several security vulnerabilities:
