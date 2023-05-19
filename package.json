@@ -1,6 +1,6 @@
 {
   "name": "@funboxteam/eslint-plugin-no-only-tests",
-  "version": "4.0.1",
+  "version": "5.0.0",
   "description": "Disallow the use of describe.only() and it.only()",
   "keywords": [
     "eslint",
