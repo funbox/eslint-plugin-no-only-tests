@@ -19,6 +19,8 @@ ruleTester.run('no-only', rule, {
         type: 'CallExpression',
         line: 1,
         column: 1,
+        endLine: 1,
+        endColumn: 14,
       }],
     },
     {
@@ -28,6 +30,8 @@ ruleTester.run('no-only', rule, {
         type: 'CallExpression',
         line: 1,
         column: 1,
+        endLine: 1,
+        endColumn: 8,
       }],
     },
     {
@@ -37,6 +41,8 @@ ruleTester.run('no-only', rule, {
         type: 'CallExpression',
         line: 1,
         column: 22,
+        endLine: 1,
+        endColumn: 29,
       }],
     },
     {
@@ -47,12 +53,16 @@ ruleTester.run('no-only', rule, {
           type: 'CallExpression',
           line: 1,
           column: 1,
+          endLine: 1,
+          endColumn: 14,
         },
         {
           message: 'Unexpected it.only',
           type: 'CallExpression',
           line: 1,
           column: 27,
+          endLine: 1,
+          endColumn: 34,
         },
       ],
     },
